@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("../img/computer-desk-electronics-keyboard-238118.jpg") ;
+    background-position: 51% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+#intro{
+    height: 80vh;
+}
+
+#intro-text{
+    margin-top: 2rem;
+    height: 70vh;
+    font-size: 1.5rem;
+}
+
+#de-oplossing{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+#lees-meer{
+    color: white!important;
+    margin-top: 1rem;
+    padding: 1rem 1rem;
+    background-color: rgb(133, 28, 28);
+}
+
+.wat-link{
+    display: block;
+    color: black!important;
+    padding: 0.5rem 1rem;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.459);
+    border-width: 2px;
+    margin-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 12rem;
+    font-size: 1.2rem;
+}
+
+#wat-intro{
+    margin-top: 5rem;
+    height: 80vh;
+}
+
+.main-content{
+    background-color: white;
+}
+
+h3{
+    margin-top: 2rem;
+    font-size: 2rem;
+}
+
+#footer a {
+    color: black!important;
+}
+
+section{
+    padding: 1rem 0.5rem;
+}
+
+#contact form{
+    font-size: 1.2rem;;
+}
+
+#contact h3{
+    padding-bottom: 1rem;;
+}
+
+#contact-form{
+    margin-top: 1rem;
+}
+
+input{
+    width: 15rem;
+    border-radius: 5px;
+
+}
+
+textarea {
+    width: 15rem;
+}
+
+input:focus{
+    background-color: rgba(230, 228, 228, 0.438);
+    border: 1.5px solid gray;
+}
+
+label{
+    display: block;
+}
+
+#submit {
+    background-color: rgb(43, 42, 42);
+    border-radius: 10px;
+    color: white!important;
+}
+h4{
+    padding-top: 1rem;
+}
+
+.caption{
+    color: rgb(102, 101, 101);
+    font-weight: 500;
+    font-size: 18px;
+}
+
+
+
+
+@media screen and (min-width: 700px){
+    #intro-text{
+        font-size: 2rem;
+    }
+
+    #de-oplossing{
+        font-size: 2.5rem;
+    }
+
+    #wat-intro{
+        font-size: 1.5rem;
+    }
+
+    .wat-link{
+        width: 20rem;
+        margin-bottom: 1.5rem;
+    }
+
+    #contact-form{
+        margin-left: 4rem;
+    }
+
+    input {
+        width: 20rem;
+    }
+
+    textarea{
+        width: 20rem;
+    }
+    
+    
+}
+
+@media screen and (max-width: 767px){
+   .one{
+       order: 1;
+   }
+   .two{
+       order: 2;
+   }
+    
+}
