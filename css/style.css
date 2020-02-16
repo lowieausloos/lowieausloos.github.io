@@ -33,11 +33,21 @@ a:hover{
     font-weight: 600;
 }
 
-#lees-meer{
+#projecten{
     color: white!important;
+    font-size: 1.5rem;
     margin-top: 1rem;
-    padding: 1rem 1rem;
+    padding: 1rem 3rem;
     background-color: rgb(133, 28, 28);
+}
+
+#info {
+    font-size: 1.3rem;
+}
+
+.website{
+    color: black!important;
+    text-decoration: underline;
 }
 
 .wat-link{
