@@ -7,16 +7,9 @@
 html, body {min-height: 100%;}
 
 
-body:before {
-    content: "";
-    display: block;
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
+html {
     height: 100%;
-    z-index: -10;
-    background: url(photos/2452.jpg) no-repeat center center;
+    background: url(bg.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
