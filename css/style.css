@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+html, body {min-height: 100%;}
+
 body{
     background-image: url("../img/computer-desk-electronics-keyboard-238118.jpg") ;
     background-position: 51% 50%;
