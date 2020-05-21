@@ -190,6 +190,14 @@ h4 a {
     margin-bottom: 1rem;
 }
 
+table {
+    table-layout: fixed ;
+    width: 100% ;
+  }
+  td {
+    width: 25% ;
+  }
+
 
 @media screen and (min-width: 700px){
     #intro-text{
