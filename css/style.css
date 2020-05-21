@@ -146,6 +146,45 @@ h4{
     font-size: 18px;
 }
 
+.opacity{
+
+    background: none;
+}
+
+#accordion{
+    min-width: 200px;
+}
+
+h3{
+    display: block;
+}
+
+.extra{
+    background-color: white;
+}
+
+h4 a {
+    color: black!important;
+    text-align: center;
+
+}
+
+.panel-heading{
+    background-color: rgba(0, 0, 0, 0.068);
+    padding-bottom: 0.8rem;
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+.collapsing {
+    position: relative;
+    height: 0;
+    overflow: hidden;
+    -webkit-transition: height 1.5s ease;
+         -o-transition: height 1.5s ease;
+            transition: height 1.5s ease;
+  }
 
 
 
