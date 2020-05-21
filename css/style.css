@@ -186,6 +186,9 @@ h4 a {
             transition: height 1.5s ease;
   }
 
+.card-deck{
+    margin-bottom: 1rem;
+}
 
 
 @media screen and (min-width: 700px){
