@@ -51,34 +51,42 @@
         </div>
     </nav>
 
+
+
+
+
+
+
+    
+
             <section id="contact">
                 <div class="container">
                     <div class="row" id="contact-form">
                         <div class="col-12 col-sm-6 my-auto">
-                                <form method="post">
+                                <form method="post" action="mail.php">
                                         <fieldset>
                                             <h3>
                                                 Contact
                                             </h3>
                                             <p>
                                                 <label for="voornaam" >Voornaam *</label>
-                                                <input type="text" id="voornaam" required>
+                                                <input type="text" id="voornaam" name="voornaam" required>
                                             </p>
                                             <p>
                                                 <label for="achternaam">Familienaam *</label>
-                                                <input type="text" id="achternaam" required>
+                                                <input type="text" id="achternaam" name="achternaam" required>
                                             </p>
                                             <p>
                                                 <label for="email">E-mail *</label>
-                                                <input type="email" id="email" required>
+                                                <input type="email" id="email" name="email" required>
                                             </p>
                                             <p>
                                                 <label for="onderwerp">Onderwerp</label>
-                                                <input type="text" id="onderwerp">
+                                                <input type="text" id="onderwerp" name="onderwerp">
                                             </p>
                                             <p>
                                                 <label for="bericht">Bericht *</label>
-                                                <textarea  id="bericht" required></textarea>
+                                                <textarea  id="bericht" required  name="bericht"></textarea>
                                             </p>
                                             <p>
                                                 <input type="submit" value="Verstuur" id="submit">
@@ -91,6 +99,8 @@
                     </div>
                 </div>
             </section>
+
+            
 
             <!-- =============
     Footer section
@@ -111,5 +121,8 @@
                 </div>
             </div>
         </section>
+
+
+        
 </body>
 </html>
