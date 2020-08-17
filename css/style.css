@@ -115,7 +115,7 @@ section{
 input{
     width: 15rem;
     border-radius: 5px;
-
+    font-size: 1rem;
 }
 
 textarea {
